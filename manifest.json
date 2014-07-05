@@ -1,0 +1,24 @@
+{
+	"name":"网络学堂自动登陆",
+	"version":"1.0",
+	"manifest_version":2,
+	"web_accessible_resources":[
+		"jquery-1.11.1.min.js",
+		"index.js",
+		"myspace.js",
+		"click.js"
+	],
+	"permissions": [
+  		"tabs", "http://learn.cic.tsinghua.edu.cn/*"
+	],
+	"content_scripts": [
+	    {
+	      "matches": ["http://learn.cic.tsinghua.edu.cn/index"],
+	      "js": ["jquery-1.11.1.min.js","index.js"]
+	    },
+	   	{
+	      "matches": ["http://learn.cic.tsinghua.edu.cn/f/*"],
+	      "js": ["jquery-1.11.1.min.js","myspace.js"]
+	    }
+  	]
+}
