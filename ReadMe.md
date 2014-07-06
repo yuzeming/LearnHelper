@@ -21,7 +21,8 @@
 4. 为登录后的界面上的退出按钮新绑定一个函数，用于清除登录信息。
 5. 另外，要验证登录信息有效的情况下才进行自动登录，以避免一不小心输错密码导致，自动登录-登录失败-返回-再自动登录-再失败 的循环。
 
-先简单介绍一下保存数据使用的API localStorage 是一个HTML5中用来存储本地数据的API。
+先简单介绍一下保存数据使用的API localStorage 是一个HTML5中用来存储本地数据的API。每一个网站有独立的存储空间。
+
 
 * localStorage.getItem("a") 返回保存的值，如果没有保存返回null
 * localStorage.setItem("b","test") 为某个属性设置一个新值，*值只能是字符串*。
@@ -138,6 +139,21 @@ if (localStorage.getItem("u") && localStorage.getItem("p")){
 由于chrome的安全策略，不能双击安装。打开chrome的扩展程序页面。将crx文件拖入页面内即可安装。
 
 ##GetHub
+可以在这里找到源代码和打包好的程序。
+https://github.com/yuzeming/LearnHelper
+
+##更多资料
+扩展程序还有更强的能力。比如后台脚本，弹出对话框等。有了HTML5的支持，和桌面程序已经不相上下。
+
+原版
+
+https://developer.chrome.com/extensions
+
+中文翻译版。
+
+http://open.chrome.360.cn/extension_dev/overview.html
 
 
+这次写的有点多。
+Coding && have fun.
 
