@@ -9,7 +9,7 @@
 		"click.js"
 	],
 	"permissions": [
-  		"tabs", "http://learn.cic.tsinghua.edu.cn/*"
+  		"http://learn.cic.tsinghua.edu.cn/*"
 	],
 	"content_scripts": [
 	    {
