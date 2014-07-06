@@ -138,7 +138,7 @@ if (localStorage.getItem("u") && localStorage.getItem("p")){
 
 由于chrome的安全策略，不能双击安装。打开chrome的扩展程序页面。将crx文件拖入页面内即可安装。
 
-##GetHub
+##GitHub
 可以在这里找到源代码和打包好的程序。
 https://github.com/yuzeming/LearnHelper
 
